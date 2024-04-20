@@ -15,3 +15,5 @@ Provides a set of function call to support create, read and write file in kernel
 Monitor the process creation and exit event in the OS. Support regular expression filter. Support receive the process started and exit event. It can also block the unwanted process creation. Support Event Hanlder. 
 ### DLL Image Load Monitor
 Monitor DLL image load event in the whole operating system. Prevent the suspicious DLL from being load. Support regular expression filter. Support receive and disposition of DLL Image load event.Support Event Hanlder. 
+### DLL Injection
+Support Inject DLL in kernel mode. Both support dll injection to 32 and 64 bit process. 
