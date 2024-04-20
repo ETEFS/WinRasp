@@ -17,3 +17,5 @@ Monitor the process creation and exit event in the OS. Support regular expressio
 Monitor DLL image load event in the whole operating system. Prevent the suspicious DLL from being load. Support regular expression filter. Support receive and disposition of DLL Image load event.Support Event Hanlder. 
 ### DLL Injection
 Support Inject DLL in kernel mode. Both support dll injection to 32 and 64 bit process. 
+### Kill Process
+Support kill process in kernel mode. The caller can choose to kill the process normally or by force.
