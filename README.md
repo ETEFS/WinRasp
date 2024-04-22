@@ -19,3 +19,9 @@ Monitor DLL image load event in the whole operating system. Prevent the suspicio
 Support Inject DLL in kernel mode. Both support dll injection to 32 and 64 bit process. 
 ### Kill Process
 Support kill process in kernel mode. The caller can choose to kill the process normally or by force.
+### Process memory Read/Write
+Support to read/write process memory in kernel mode. Also support read/write kernel address space memory in kernel mode.
+### Process List
+Retrive a process list from kernel mode.
+### Process Object Protection
+Capture the process object access event, filter and prevent the write request to the target process object. Support receive the event handler processing. Support Event Hanlder .
