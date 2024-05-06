@@ -25,3 +25,20 @@ Support to read/write process memory in kernel mode. Also support read/write ker
 Retrive a process list from kernel mode.
 ### Process Object Protection
 Capture the process object access event, filter and prevent the write request to the target process object. Support receive the event handler processing. Support Event Hanlder .
+## Registry Security
+### Registry Key Protection
+Prevent registry key from file data modifying, create new key and delete existing key. Support regular expression filter. User can set a white PID or process name to permit it   can access the protected registry key. Support receive registry key modify event. Support Event Hanlder.
+### Direct Registry Access
+Provides a set of function call to support create, read and write registry key in kernel mode. To direct access registry key can avoid the user mode apihook module to interfere the real registry key data and information.
+### Registry Key Hiding
+Hiding Registry key from user mode application.
+## Misc Security
+### Debugging state checking
+Checking the target application is being debug. Checking OS Kernel is being debug.
+### Callback Management
+To enumerate the all kernel callback object include process creation callback, DLL image load callback, object access callback and registry operation callback. 
+Support remove the callback object in the system. 
+### Direct network access
+Provides a set of function call to support send and receive data in kernel mode. To direct access network can avoid the user mode apihook module to interfere the real network data and information.
+### Loaded kernel module list 
+Get a loaded kernel module list, including image name, image base address, entry point, image size.
