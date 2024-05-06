@@ -42,3 +42,9 @@ Support remove the callback object in the system.
 Provides a set of function call to support send and receive data in kernel mode. To direct access network can avoid the user mode apihook module to interfere the real network data and information.
 ### Loaded kernel module list 
 Get a loaded kernel module list, including image name, image base address, entry point, image size.
+## Connect
+For more information, please visit  
+http://www.etefs.com  or  
+http://www.minifilter.net  
+For business cooperation or more product detail ,please contact  
+**etefs@etefs.com**
